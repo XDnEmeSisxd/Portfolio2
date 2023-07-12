@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wasif Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ad3e751c83.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class=" header">
+        <div class="container">
+                
+            <nav class="nav-header">
+                <div class="name" id="name">
+                    <span     id="red">W</span>
+                    <span class="logo">A</span>
+                    <span class="logo">S</span>
+                    <span class="logo">I</span>
+                    <span class="logo">F</span>
+                </div>
+                <div class="navbar">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa-solid fa-xmark" onclick="closemenue()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </div>
+            </nav>
+            <div class="header-text">
+                <p>CS Aspirant</p>
+                <h1>Hi, I'm <span id="name">Wasif</span> Biswas From India</h1>
+            </div>
+        </div>
+    </div>
+
+        <!-- ----------------------------about------------------------- -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/personal-portfolio-img/images/resize-16889067861095953853my.jpg" alt="" class="mypic">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <br><br><p>Hello, I'm Wasif Biswas. And I am Persuing Bachelor's of Computer Application (BCA) From MAKAUT University <br><br>I am a Cyber Security Enthusiast and also have interest in Web Development. <br><br>I also love to play Musical Instruments like Drums and Bass <br><br>I am a Bassist at PAROD THE BAND and THE HARD ROCK...</p>
+                    <br><p>In Technical Skills i can handle Linux / Windows / MAC / MY SQL</p><br>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br><br>Desingning WebApp Interfaces</li> <br><br>
+                            <li><span>Web Development</span><br><br>Web App Development</li> <br><br>
+                            <li><span>Operating System</span><br><br>Can handle Linux /Windows /MAC</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023 - Current</span><br><br>Intern as an Junior Web Developer in Accenture</li> <br><br>
+                            <li><span>2023 - Current</span><br><br>Certified Ethical Hacker(CEH)</li> <br><br>
+                            <li><span>2022</span><br><br>Cisco Certified Network Analyst(CCNA)</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2024</span><br><br>Bachelor's of Computer Application(BCA)</li> <br><br>
+                            <li><span>2021</span><br><br>Completed Higher Secondary</li> <br><br>
+                            <li><span>2024</span><br><br>BCA from kolkata, MAKAUT University</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+                <!-- ------------------------services-------------------------------- -->
+    
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <!-- This icon is from fontawesome -->
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique magnam, accusamus adipisci error aliquam quas illum vel at iste fugiat mollitia voluptatem recusandae quisquam veritatis quidem eligendi unde quasi harum?</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <!-- This icon is from fontawesome -->
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique magnam, accusamus adipisci error aliquam quas illum vel at iste fugiat mollitia voluptatem recusandae quisquam veritatis quidem eligendi unde quasi harum?</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <!-- This icon is from fontawesome -->
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>App Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique magnam, accusamus adipisci error aliquam quas illum vel at iste fugiat mollitia voluptatem recusandae quisquam veritatis quidem eligendi unde quasi harum?</p>
+                    <a href="#">learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- ---------------------Portfolio-------------------------------- -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/personal-portfolio-img/images/work-1.png" alt="">
+                    <div class="layer">
+                        <h3>
+                            Social Media App
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi minus error in quae qui nobis a consequuntur ipsa quod voluptate, ea maxime, magni voluptates dignissimos alias ipsam molestias perspiciatis. Nostrum!</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/personal-portfolio-img/images/work-2.png" alt="">
+                    <div class="layer">
+                        <h3>
+                            Music App
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi minus error in quae qui nobis a consequuntur ipsa quod voluptate, ea maxime, magni voluptates dignissimos alias ipsam molestias perspiciatis. Nostrum!</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/personal-portfolio-img/images/work-3.png" alt="">
+                    <div class="layer">
+                        <h3>
+                            Online Shopping App
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi minus error in quae qui nobis a consequuntur ipsa quod voluptate, ea maxime, magni voluptates dignissimos alias ipsam molestias perspiciatis. Nostrum!</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+<!-- --------------------------Contact-------------------------------- -->
+
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p> <i class="fa-solid fa-paper-plane"></i>Contact@example.com</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/wasif-biswas-2655b4235/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://twitter.com/WASIFBISWAS6"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/wasif0biswas/"><i class="fa-brands fa-instagram"></i></i></a>
+                    </div>
+
+                            <!-- CV Link -->
+
+                    <a href="" class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="massage "  rows="10" placeholder="Your Massage"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+                <!-- For skill expirience education tabs -->
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname)
+        {
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of  tabcontents){
+                 tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+
+            <!-- For phone screen sidemenu bar -->
+
+    <script>
+
+        var sidemenu = document.getElementById("sidemenu")
+
+        function openmenu(){
+            sidemenu.style.right = "0"
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px"
+        }
+
+    </script>
+    <!-- script for googlesheet from github/jamiewilson -->
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxwYbJvWnD-nSVxDR0D0pKtt1uC_UJclxVbOnTsVccxzwzEQA1PtjP16_4I4k3E2aaC/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Massage sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
